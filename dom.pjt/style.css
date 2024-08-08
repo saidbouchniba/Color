@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    padding: 30px;
+}
+#color-box{
+    border: 1px solid;
+    width: 30%;
+    height: 200px;
+    background-color: black;
+}
+#change-color-btn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(17, 236, 236);
+}
